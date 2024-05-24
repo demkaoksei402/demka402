@@ -1,0 +1,57 @@
+.snippet {
+    background: #dadada;
+    color: #FFB1F3;
+    font-family: 'Montserrat';
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+
+.snippet h3 {
+    font-size: clamp(32px, 5vw, 48px);
+
+}
+.snippet h4 {
+    font-size: clamp(20px, 5vw, 48px);
+
+}
+
+.tag {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 10vh;
+    margin-bottom: 2vh;
+}
+
+.tag h2 {
+    font-size: clamp(40px, 5vw, 72px);
+    font-family: 'Montserrat Alternates';
+    color: #C6B1FF;
+}
+
+.tag .gozapis {
+    width: 100%;
+    background: #dadada;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tag .gozapis h3 {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: #616161;
+    font-size: clamp(24px, 5vw, 36px);
+}
+.tag .gozapis h3 a{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: #FFB1F3;
+    font-size: clamp(24px, 5vw, 36px);
+}
